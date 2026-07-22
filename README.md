@@ -11,13 +11,21 @@ E2E — как пользователь: открыла страницу, кли
 Структура папок такая же, как в оригинальном проекте — просто вынесла сюда тестовую часть:
 
 tests/
-setup/ — общий setup для vitest
-unit/ — мелкие чистые функции
-integration/ — api + localStorage
-e2e/
-helpers/ — куки / попап города
-pages/ — page objects
-specs/ — сценарии в браузере
+
+-setup/ — общий setup для vitest
+
+-unit/ — мелкие чистые функции
+
+-integration/ — api + localStorage
+
+-e2e/
+
+--helpers/ — куки / попап города
+
+--pages/ — page objects
+
+--specs/ — сценарии в браузере
+
 
 ## Что внутри
 
